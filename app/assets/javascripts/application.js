@@ -15,7 +15,7 @@ $(document).ready(function(){
     // get the user input and save it
     var input = $("#venue-search").val();
     var apikey = "UuzY21WjoBgBxDEK";
-    var url = "http://api.songkick.com/api/3.0/search/venues.json?query=" + input + "&apikey=" + apikey + "&jsoncallback=?";
+    var url = "https://api.songkick.com/api/3.0/search/venues.json?query=" + input + "&apikey=" + apikey + "&jsoncallback=?";
     // ask the api for data
     $.ajax({
       url: url,
